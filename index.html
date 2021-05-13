@@ -7,14 +7,7 @@
     <meta name="description" content="KoЯnify - Because Я is always cooler than R!">
     <title>KoЯnify - because Я is always cooler than R!</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        function kornify() {
-            var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT)
-            while(node = walker.nextNode()) {
-                node.nodeValue = node.nodeValue.replace(/r/ig, 'Я')
-            }
-        }
-    </script>
+    <script src="https://cdn.jsdelivr.net/gh/dvdhllbrg/kornify/kornify.js"></script>
   </head>
   <body>
     <header>
@@ -26,13 +19,13 @@
     <main>
         <h2 class="sectionHeader">How to KoЯnify</h2>
         <p>To add the KoЯnify script to your website, include this script tag in your HTML:</p>
-        <pre>&lt;script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/kornify/1.0.0/kornify.js"&gt;&lt;/script&gt;</pre>
+        <pre>&lt;script src="https://cdn.jsdelivr.net/gh/dvdhllbrg/kornify/kornify.js"&gt;&lt;/script&gt;</pre>
         <p>Then you can KoЯnify at will with the following Javascript code:</p>
-        <pre>`kornify();</pre>
+        <pre>kornify();</pre>
         <p>For example, to add a KoЯnify button you can do:</p>
-        <pre>&lt;button href="#" onclick="kornify();"&gt;KoЯnify me!&lt;/button&gt;</pre>
+        <pre>&lt;button onclick="kornify();"&gt;KoЯnify me!&lt;/button&gt;</pre>
         <h2 class="sectionHeader" id="problem">Example</h2>
-        <button class="button" onclick="kornify();">KoЯnify me!</button>
+        <button onclick="kornify();">KoЯnify me!</button>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt blandit vehicula. Aenean eget velit rhoncus, vestibulum nunc convallis, ultricies mauris. In eget urna eu nibh congue blandit. Fusce lacus augue, fermentum non ante ut, auctor pretium nisi. Aliquam augue arcu, vestibulum in ligula quis, rhoncus mattis arcu. Nullam dapibus facilisis justo vel dictum. Ut a ante eget lectus congue fringilla in vitae dolor. Pellentesque mattis mi arcu, sed feugiat est dictum nec. Phasellus quis mi eget mauris ultrices auctor eget sed odio. Sed iaculis pharetra congue. Morbi sed nibh vitae neque convallis vehicula faucibus eu dolor. Vivamus convallis, dui ac rhoncus molestie, enim mi pulvinar magna, sed ultricies elit nisl ut nisl.</p>
         <p>Morbi molestie, tortor vitae imperdiet dictum, ex arcu lacinia quam, sit amet cursus risus risus in magna. Etiam in ex vel quam faucibus placerat et quis lacus. Donec suscipit nunc vel odio efficitur accumsan. Praesent interdum sit amet leo vitae convallis. Cras velit ex, sodales ut ullamcorper at, gravida sed massa. Vestibulum porta est eu fermentum lobortis. Mauris laoreet odio et mi semper sodales. Ut id ex non lacus sagittis suscipit. Suspendisse rhoncus dictum nisi, nec pellentesque sapien placerat quis. Mauris efficitur sed leo nec vestibulum. Nullam ut fringilla dui. Etiam faucibus sit amet dolor et egestas. Phasellus tristique nulla et elit volutpat bibendum sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum sagittis mattis ex non iaculis. Nunc pellentesque rhoncus consectetur.</p>
         <p>Aliquam vitae sem et nunc bibendum suscipit in eu felis. Fusce ultrices lobortis sollicitudin. In ornare dapibus ante ac posuere. Donec scelerisque ornare enim in sagittis. Suspendisse potenti. Sed efficitur ex quis porttitor fermentum. Duis euismod tellus eu dapibus pulvinar.</p>

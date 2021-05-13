@@ -56,7 +56,6 @@ header p {
 pre {
     background: #f6f8fa;
     overflow: auto;
-    width: 65rem;
     padding: 1rem;
     max-width: 100vw;
 }
