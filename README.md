@@ -18,5 +18,5 @@ Then you can KoЯnify at will with the following Javascript code:
 For example, to add a KoЯnify button you can do:
 
 ~~~html
-<button  href="#"  onclick="kornify();">KoЯnify m!</button>
+<button onclick="kornify();">KoЯnify m!</button>
 ~~~
