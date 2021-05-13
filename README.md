@@ -8,7 +8,7 @@ Inspired by [Cornify](https://github.com/Cornify/Cornify). Idea originally dropp
 
 To add the KoЯnify script to your website, include this script tag in your HTML:
 ~~~html
-<script  type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/kornify/1.0.0/kornify.js"></script>
+<script  type="text/javascript"  src="https://cdn.jsdelivr.net/gh/dvdhllbrg/kornify/kornify.js"></script>
 ~~~
 
 # Using it
