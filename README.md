@@ -1,6 +1,6 @@
 # KoЯnify
 
-Because Я is always cooler than R!
+Because Я is always better than R!
 
 Inspired by [Cornify](https://github.com/Cornify/Cornify). Idea originally dropped by [Scott Tolinski](https://github.com/stolinski) in the [Syntax podcast](https://syntax.fm/show/324/typescript-fundamentals).
 
@@ -8,7 +8,7 @@ Inspired by [Cornify](https://github.com/Cornify/Cornify). Idea originally dropp
 
 To add the KoЯnify script to your website, include this script tag in your HTML:
 ~~~html
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/kornify/1.0.0/kornify.js"></script>
+<script  type="text/javascript"  src="https://cdn.jsdelivr.net/gh/dvdhllbrg/kornify/kornify.js"></script>
 ~~~
 
 Then you can KoЯnify at will with the following Javascript code:
@@ -18,5 +18,5 @@ Then you can KoЯnify at will with the following Javascript code:
 For example, to add a KoЯnify button you can do:
 
 ~~~html
-<button href="#" onclick="kornify();">KoЯnify me!</button>
+<button  href="#"  onclick="kornify();">KoЯnify m!</button>
 ~~~
